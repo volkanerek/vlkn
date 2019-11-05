@@ -3,7 +3,6 @@ import os
 
 df = os.getcwd() + "\\Plaza Coffee.txt"
 df = pd.read_csv(df, sep=';')
-print(df)
 
 companyNames = ["KPMG", "EY", "Deloite & Touche", "PWC"]
 companyList = list(df['Company'])
